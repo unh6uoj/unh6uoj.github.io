@@ -97,7 +97,7 @@ author:
   name             : "Benjamin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "안녕하세요"
-  location         : "Somewhere"
+  location         : "대구"
   email            :
   links:
     - label: "Email"
