@@ -1,5 +1,5 @@
 ---
-title: "Selenium 상태 확인 expected_conditions에 대하여"
+title: "Selenium 상태 확인 expected_conditions"
 categories:
   - study
 tags:
