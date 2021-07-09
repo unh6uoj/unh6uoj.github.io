@@ -17,7 +17,7 @@ tags:
 
 selenium에선 WebDriverWait이라는 모듈을 통해 로딩을 대기하는 방법을 제공해주고 있다. 
 
-[https://selenium-python.readthedocs.io/waits.html][]
+<https://selenium-python.readthedocs.io/waits.html>
 
  👆️ 공식 문서 참조!
 
