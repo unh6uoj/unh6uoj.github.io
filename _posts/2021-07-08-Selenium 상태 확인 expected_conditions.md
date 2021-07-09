@@ -16,9 +16,7 @@ tags:
 
 
 selenium에선 WebDriverWait이라는 모듈을 통해 로딩을 대기하는 방법을 제공해주고 있다. 
-
-[]: https://selenium-python.readthedocs.io/waits.html
-
+[https://selenium-python.readthedocs.io/waits.html]: https://selenium-python.readthedocs.io/waits.html
  👆️ 공식 문서 참조!
 
 
@@ -60,28 +58,22 @@ from selenium.webdriver.common.by import By
 공식 문서를 보니 expected_conditions는 총 17가지를 제공한다고 나와있는데, 하나하나 살펴보자
 
 - title_is(**title**)
-
   - 페이지 제목을 확인하기 위한 함수다. 인자로 들어간 제목과 현재 페이지 제목이 같다면true를, 아니라면 false를 반환한다.
-
 - title_contains(**title**)
-
   - 페이지 제목을 확인하는데, 대/소문자를 구분한다. 같으면 true, 다르면 false
 
   
 
 - presence_of_element_located(**locator**)
-
   - locator로 들어간 element가 DOM에 있는지 확인한다. element가 존재하면 true, 없다면 false
-
 - presence_of_all_elements_located(**locator**)
-
   - locator로 들어간 element가 하나 이상 존재하는지 확인하고, 찾는 element들을 리스트로 반환
 
   
 
 - visibility_of(**locator**)
   - locator로 들어간 element가 보이는지 확인한다. DOM에는 있지만 hidden등의 속성 값으로 보이지 않는 element들을 체크하는데 사용. 해당 element가 보인다면 True, 그렇지 않다면 False를 반환.
-  - 주의! width나 height 등의 속성값이 0이 돼서 보이지 않는 element들 또한 보이지 않는 것으로 취급 (visibility~~ 함수들 모두 해당)
+  - ⚠️주의! width나 height 등의 속성값이 0이 돼서 보이지 않는 element들 또한 보이지 않는 것으로 취급 (visibility~~ 함수들 모두 해당)
 - visibility_of_element_located(**locator**)
   - locator로 들어간 element가 보이는지 체크하고, DOM에도 있는지 체크한다.
 - invisibility_of_element_located(**locator**)
@@ -90,60 +82,42 @@ from selenium.webdriver.common.by import By
 
 
 ⚠️text_to_be~ 는 정확하지 않습니다...
-
 - text_to_be_present_in_element(**locator, text_**)
-
   - text_가 locator에 존재하는지 확인. 존재하면 true, 없다면 false를 반환
-
 - text_to_be_present_in_element_value
-
   - locator로 들어간 element에 text와 text_를 비교, 같다면 true, 다르면 false를 반환한다.
 
   
 
 - frame_to_be_available_and_switch_to_it(**locator**)
-
   - locator로 frame이 들어가고 해당 frame을 사용할 수 있다면 그 frame을 반환한다.
 
-  
 
 - element_to_be_clickable(**locator**)
-
   - locator로 들어간 element가 클릭할 수 있는지 확인하고 클릭할 수 있으면 해당 element를 반환한다.
 
   
-
 - staleness_of(**locator**)
 
   - ❓️ 확인 필요함
 
   
-
 - element_to_be_selected(**locator**)
-
   - locator가 선택 가능한 element일 때, 선택이 되었는지 확인.
 
   
-
 - element_located_to_be_selected(**locator**)
-
   - locator가 DOM에 존재하는지 확인하고, 선택이 되었는지 확인.
   - ⚠️정확하지 않습니다.
 
   
-
 - element_selection_state_to_be(**element, is_selected**)
-
   - element가 bool형의 is_select와 같은 상태인지(select 되었는지) 확인한다.
-
 - element_located_selection_state_to_be(**locator, is_selected**)
-
   - locator로 들어간 element가 존재하고 선택(select) 가능한지 확인하고, bool형의 is_selected와 비교한다.
 
   
-
 - alert_is_present
-
   - alert창이 존재하는지 확인한다.
 
 
