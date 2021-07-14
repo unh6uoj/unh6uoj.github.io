@@ -66,13 +66,14 @@ from selenium.webdriver.common.by import By
 - title_contains(**title**)
   - 페이지 제목을 확인하는데, 대/소문자를 구분한다. 같으면 true, 다르면 false
 
-  
+<br>
 
 - presence_of_element_located(**locator**)
   - locator로 들어간 element가 DOM에 있는지 확인한다. element가 존재하면 true, 없다면 false
 - presence_of_all_elements_located(**locator**)
   - locator로 들어간 element가 하나 이상 존재하는지 확인하고, 찾는 element들을 리스트로 반환
 
+<br>
 
 - visibility_of(**locator**)
   - locator로 들어간 element가 보이는지 확인한다. DOM에는 있지만 hidden등의 속성 값으로 보이지 않는 element들을 체크하는데 사용. 해당 element가 보인다면 True, 그렇지 않다면 False를 반환.
@@ -82,7 +83,7 @@ from selenium.webdriver.common.by import By
 - invisibility_of_element_located(**locator**)
   - locator로 들어간 element가 보이지 않다면 true를 반환, 보인다면 false를 반환한다.
 
-
+<br>
 
 > ⚠️text_to_be~ 는 정확하지 않습니다...
 - text_to_be_present_in_element(**locator, text_**)
@@ -90,40 +91,39 @@ from selenium.webdriver.common.by import By
 - text_to_be_present_in_element_value
   - locator로 들어간 element에 text와 text_를 비교, 같다면 true, 다르면 false를 반환한다.
 
-  
+<br>
 
 - frame_to_be_available_and_switch_to_it(**locator**)
   - locator로 frame이 들어가고 해당 frame을 사용할 수 있다면 그 frame을 반환한다.
-
+<br>
 
 - element_to_be_clickable(**locator**)
   - locator로 들어간 element가 클릭할 수 있는지 확인하고 클릭할 수 있으면 해당 element를 반환한다.
 
-  
+<br>
+
 - staleness_of(**locator**)
 
   - ❓️ 확인 필요함
 
-  
+<br>
+
 - element_to_be_selected(**locator**)
   - locator가 선택 가능한 element일 때, 선택이 되었는지 확인.
-
-  
 - element_located_to_be_selected(**locator**)
   - locator가 DOM에 존재하는지 확인하고, 선택이 되었는지 확인.
   - ⚠️정확하지 않습니다.
-
-  
 - element_selection_state_to_be(**element, is_selected**)
   - element가 bool형의 is_select와 같은 상태인지(select 되었는지) 확인한다.
 - element_located_selection_state_to_be(**locator, is_selected**)
   - locator로 들어간 element가 존재하고 선택(select) 가능한지 확인하고, bool형의 is_selected와 비교한다.
 
-  
+<br>
+
 - alert_is_present
   - alert창이 존재하는지 확인한다.
 
-
+<br>
 
 이런 expected_conditions를 잘 활용하면 time.sleep()등을 활용한 크롤링보다 더 빠르고 안정적으로 데이터를 수집할 수 있다.
 
