@@ -73,7 +73,6 @@ from selenium.webdriver.common.by import By
 - presence_of_all_elements_located(**locator**)
   - locator로 들어간 element가 하나 이상 존재하는지 확인하고, 찾는 element들을 리스트로 반환
 
-  
 
 - visibility_of(**locator**)
   - locator로 들어간 element가 보이는지 확인한다. DOM에는 있지만 hidden등의 속성 값으로 보이지 않는 element들을 체크하는데 사용. 해당 element가 보인다면 True, 그렇지 않다면 False를 반환.
@@ -85,7 +84,7 @@ from selenium.webdriver.common.by import By
 
 
 
-⚠️text_to_be~ 는 정확하지 않습니다...
+> ⚠️text_to_be~ 는 정확하지 않습니다...
 - text_to_be_present_in_element(**locator, text_**)
   - text_가 locator에 존재하는지 확인. 존재하면 true, 없다면 false를 반환
 - text_to_be_present_in_element_value
