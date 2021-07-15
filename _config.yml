@@ -94,7 +94,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Benjamin"
+  name             : "jongyun jung"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "안녕하세요"
   location         : "대구"
@@ -117,7 +117,7 @@ author:
       url: "https://github.com/unh6uoj"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/unh6uoj"
+      url: "https://www.instagram.com/unh_6uoj/"
 
 # Site Footer
 footer:
