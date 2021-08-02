@@ -56,5 +56,5 @@ function App() {
 export default App;
 ```
 
-![react_홍길동](../images/react_홍길동.png){: width="50%" height="50%"}
-![react_고길동](../images/react_고길동.png){: width="50%" height="50%"}
+![react_홍길동](/images/react_홍길동.png){: width="50%" height="50%"}
+![react_고길동](/images/react_고길동.png){: width="50%" height="50%"}
