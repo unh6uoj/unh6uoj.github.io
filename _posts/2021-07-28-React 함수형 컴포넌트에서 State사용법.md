@@ -8,7 +8,7 @@ tags:
 
 ## React 함수형 컴포넌트에서 State사용법
 
-![react_logo](/images/react_logo.svg){: width="50%" height="50%"}
+<center> ![react_logo](/images/react_logo.svg){: width="50%" height="50%"} </center>
 
 ### Functional Component
 🙇 최근 React에서는 클래스형 컴포넌트보단 함수형 컴포넌트를 사용하는 것을 권장하는 고있는 것 같다.
@@ -56,5 +56,8 @@ function App() {
 export default App;
 ```
 
-![react_홍길동](/images/react_홍길동.png){: width="50%" height="50%"}
-![react_고길동](/images/react_고길동.png){: width="50%" height="50%"}
+이렇게 간단한 페이지에 State를 뿌려주고, State를 변경할 수 있는 setter함수를 onClick으로 가지고 있는 버튼을 만들었다.  
+해당 버튼을 눌러보면 그 즉시 State가 변경되고, 화면이 re-render 되면서 view에서도 변경을 확인할 수 있다.
+
+<center> ![react_홍길동](/images/react_홍길동.png){: width="50%" height="50%"} </center>
+<center> ![react_고길동](/images/react_고길동.png){: width="50%" height="50%"} </center>
