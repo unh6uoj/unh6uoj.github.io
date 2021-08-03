@@ -78,10 +78,6 @@ def read_root():
 def read_item(item_id: int, q: Optional[str] = None):
     return {"item_id": item_id, "q": q}
 ```
-  
-<br>
----
-<br>
 
 이렇게 작성하고 터미널에 하단의 명령어를 작성하면
 > $ uvicorn main:app --reload  
