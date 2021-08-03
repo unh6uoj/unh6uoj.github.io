@@ -80,9 +80,9 @@ def read_item(item_id: int, q: Optional[str] = None):
 ```
 
 이렇게 작성하고 터미널에 하단의 명령어를 작성하면
-> $ uvicorn main:app --reload  
+> $ uvicorn main:app ---reload  
 
-이 명령어 뒤에 붙은 --reload는 코드가 변경 되었을 때 자동으로 서버를 재 실행하라는 명령어란다.  
+이 명령어 뒤에 붙은 ---reload는 코드가 변경 되었을 때 자동으로 서버를 재 실행하라는 명령어란다.  
 
 ![fastapi_run](/images/fastapi_run.png)
 
