@@ -94,12 +94,12 @@ FastAPI의 기본 포트는 8000으로 되어 있는 것 같으므로,
 <http://localhost:8000>  
 
 으로 접속 하면  
-![fastapi_root](/images/fastapi_root.png)  
+![fastapi_root](/images/fastapi_root.png){: width="100%" height="100%}  
 이렇게 root경로가 잘 나오는걸 확인 할 수 있다.  
 
 그리고, <http://127.0.0.1:8000/items/123?q=coffee>  
 이쪽으로 접속하게 되면 GET 메소드도 쉽게 활용할 수 있는걸 확인할 수 있다.
-![fastapi_coffee](/images/fastapi_coffee.png)
+![fastapi_coffee](/images/fastapi_coffee.png){: width="100%" height="100%}
 
 <br>
 ---
