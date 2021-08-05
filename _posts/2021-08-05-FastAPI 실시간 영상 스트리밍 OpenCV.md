@@ -88,4 +88,4 @@ FastAPI를 사용해 웹 서버를 여는 main.py파일과, openCV로 영상 데
 
 로 FastAPI서버를 실행 해보고 <http://localhost:8000>에 접속 해보면 OpenCV에서 불러온 영상들이 실시간으로 브라우저에서 잘 나오는것을 확인 할 수 있었다.  
 
-![streaming_image](/images/streaming_image)
+![streaming_image](/images/streaming_image.jpeg)
