@@ -5,6 +5,8 @@ categories:
 tags:
   - python
   - fastAPI
+toc: true
+toc_sticky: true
 ---
 
 ## Python FastAPI, 설치하고 초기 설정 해보기

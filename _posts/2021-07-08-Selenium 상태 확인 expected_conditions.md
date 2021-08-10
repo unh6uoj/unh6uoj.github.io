@@ -5,6 +5,8 @@ categories:
 tags:
   - python
   - selenium
+toc: true
+toc_sticky: true
 ---
 
 ## Selenium expected_conditions의 종류

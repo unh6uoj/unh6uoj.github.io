@@ -4,6 +4,8 @@ categories:
   - study
 tags:
   - react
+toc: true
+toc_sticky: true
 ---
 
 ## React 함수형 컴포넌트에서 State사용법

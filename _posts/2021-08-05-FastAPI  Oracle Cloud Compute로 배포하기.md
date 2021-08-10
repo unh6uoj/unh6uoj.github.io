@@ -6,6 +6,8 @@ tags:
   - fastAPI
   - oracle
   - cloudCompute
+toc: true
+toc_sticky: true
 ---
 
 ## FastAPI를 Oracle Cloud Compute로 배포하기
