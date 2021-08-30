@@ -11,7 +11,7 @@ toc_sticky: true
 
 ## GitHub 토큰 발급 및 인증하기
 
-![Git_Error](/images/git/git_error.png){: width="50%" height="50%"}
+![Git_Error](/images/git/git_error.png)
 > remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
 > remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
 
