@@ -32,8 +32,8 @@ Layer는 외부 라이브러리를 쉽게 사용할 수 있도록 해주는 도�
 .은 현재 디렉토리에 설치하라는 뜻.  
 
 그렇게 되면 해당 디렉토리에 패키지 파일들이 받아져 있는걸 확인 할 수 있다.
----
 
+---
 ![requests_install](/images/lambda_python_lib/install_requests.png)
 
 ---
