@@ -118,3 +118,4 @@ TableCalendar(
   formatAnimationCurve: Curves.easeInOutCirc,
   formatAnimationDuration: Duration(milliseconds: 300),
 );
+```
